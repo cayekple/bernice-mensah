@@ -505,7 +505,11 @@ function App() {
               <div className="rounded-xl overflow-hidden border border-primary/10 dark:border-white/10">
                   <iframe
                       src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3973.951640662141!2d-1.2816808!3d5.1114972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfddfec56b217157%3A0x4bffaceef969129a!2sCentre%20for%20National%20Culture!5e0!3m2!1sen!2sgh!4v1766164514592!5m2!1sen!2sgh"
-                      width="600" height="450" loading="lazy"
+                      className="w-full h-96 rounded-lg border-0"
+                      allowFullScreen={true}
+                      loading="lazy"
+                      title="Directions to Center For National Culture, Cape Coast"
+                      aria-label="Map showing directions to Center For National Culture, Cape Coast"
                       referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
           </div>
@@ -513,10 +517,10 @@ function App() {
 
         </section>
 
-          {/* Contact */}
-          {/*<section id="rsvp" aria-labelledby="rsvp-heading" className="max-w-6xl mx-auto px-4 py-14 md:py-20 scroll-mt-24">*/}
-          {/*  <h2 id="rsvp-heading" className="reveal font-display text-3xl md:text-4xl mb-6">Contact Information</h2>*/}
-          {/*  <p className="reveal text-primary/70 mb-8">For inquiries, please reach out to:</p>*/}
+        {/* Contact */}
+        {/*<section id="rsvp" aria-labelledby="rsvp-heading" className="max-w-6xl mx-auto px-4 py-14 md:py-20 scroll-mt-24">*/}
+        {/*  <h2 id="rsvp-heading" className="reveal font-display text-3xl md:text-4xl mb-6">Contact Information</h2>*/}
+        {/*  <p className="reveal text-primary/70 mb-8">For inquiries, please reach out to:</p>*/}
         {/*  <div className="reveal grid sm:grid-cols-2 gap-6">*/}
         {/*    <div className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm dark:bg-gray-800 dark:border-white/10">*/}
         {/*      <h3 className="font-semibold flex items-center gap-2"><span aria-hidden="true">👤</span>Timothy</h3>*/}
