@@ -1,0 +1,8 @@
+/* Dark mode text contrast overrides for primary color variants used across the app.
+   This ensures body text that specifies text-primary/* remains readable on dark backgrounds. */
+
+.dark .text-primary { color: #ffffff !important; }
+.dark .text-primary\/90 { color: rgba(255, 255, 255, 0.90) !important; }
+.dark .text-primary\/80 { color: rgba(255, 255, 255, 0.80) !important; }
+.dark .text-primary\/70 { color: rgba(255, 255, 255, 0.70) !important; }
+.dark .text-primary\/60 { color: rgba(255, 255, 255, 0.60) !important; }
