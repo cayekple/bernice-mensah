@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import coupleImg from './assets/img/1.JPG';
-import logo from './assets/logo.svg';
 import { getGalleryImages, getGalleryVideos } from './gallery';
 
 function App() {
@@ -192,8 +191,8 @@ function App() {
       {/* Navigation */}
       <nav className="sticky top-0 z-40 bg-gradient-to-r from-gray-50/80 via-cream/90 to-gray-100/80 dark:bg-none backdrop-blur border-b border-primary/10 dark:bg-gray-900/80 dark:border-white/10">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between relative">
-          <a href="#home" className="inline-flex items-center gap-2" aria-label="Mrs Bernice Mensah">
-            <img src={logo} alt="Mrs Bernice Mensah Memorial" className="h-10 w-auto" />
+          <a href="#home" className="inline-flex items-center gap-2 font-semibold text-lg" aria-label="Mrs Bernice Mensah">
+            Mrs Bernice Mensah
           </a>
           <div className="flex items-center gap-2">
             <div id="primary-menu" className="hidden md:flex space-x-4 text-sm">
@@ -202,7 +201,7 @@ function App() {
               <a href="#song-131" className={linkClass('songs')} aria-current={ariaCurrent('songs')}>Songs</a>
               <a href="#reception" className={linkClass('reception')} aria-current={ariaCurrent('reception')}>Details</a>
               <a href="#rsvp" className={linkClass('rsvp')} aria-current={ariaCurrent('rsvp')}>Contact</a>
-              <a href="https://maps.app.goo.gl/LOCATION_TBD" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 rounded-md bg-accent text-white px-3 py-1.5 shadow hover:bg-primary transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-cream" aria-label="Open directions in Google Maps (opens in new tab)">
+              <a href="https://maps.app.goo.gl/BQWS1XYdyq2ui3oB8" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 rounded-md bg-accent text-white px-3 py-1.5 shadow hover:bg-primary transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-cream" aria-label="Open directions in Google Maps (opens in new tab)">
                 <span aria-hidden="true">📍</span>
                 <span>Directions</span>
               </a>
@@ -239,7 +238,7 @@ function App() {
               <a href="#song-131" onClick={() => setMenuOpen(false)} className={linkClass('songs')} aria-current={ariaCurrent('songs')}>Songs</a>
               <a href="#reception" onClick={() => setMenuOpen(false)} className={linkClass('reception')} aria-current={ariaCurrent('reception')}>Details</a>
               <a href="#rsvp" onClick={() => setMenuOpen(false)} className={linkClass('rsvp')} aria-current={ariaCurrent('rsvp')}>Contact</a>
-              <a href="https://maps.app.goo.gl/LOCATION_TBD" target="_blank" rel="noreferrer noopener" onClick={() => setMenuOpen(false)} className="inline-flex items-center gap-2 rounded-md bg-accent text-white px-3 py-1.5 shadow hover:bg-primary transition">
+              <a href="https://maps.app.goo.gl/BQWS1XYdyq2ui3oB8" target="_blank" rel="noreferrer noopener" onClick={() => setMenuOpen(false)} className="inline-flex items-center gap-2 rounded-md bg-accent text-white px-3 py-1.5 shadow hover:bg-primary transition">
                 <span aria-hidden="true">📍</span>
                 <span>Directions</span>
               </a>
@@ -262,7 +261,7 @@ function App() {
                 loading="eager"
                 decoding="async"
                 fetchPriority="high"
-                className="reveal w-full h-96 md:h-[32rem] object-cover rounded-md border border-primary/10 ring-4 ring-accent/60 ring-offset-2 ring-offset-cream dark:ring-offset-gray-900 drop-shadow-[0_0_28px_rgba(180,120,104,0.55)]"
+                className="reveal w-full h-96 md:h-[32rem] object-cover object-top rounded-md border border-primary/10 ring-4 ring-accent/60 ring-offset-2 ring-offset-cream dark:ring-offset-gray-900 drop-shadow-[0_0_28px_rgba(180,120,104,0.55)]"
               />
             </div>
             <div className="reveal text-center md:text-left">
@@ -273,7 +272,7 @@ function App() {
               <p className="text-base md:text-lg text-primary/70 dark:text-white/80">Center For National Culture, Cape Coast</p>
               <div className="mt-4">
                 <a
-                href="https://maps.app.goo.gl/LOCATION_TBD"
+                href="https://maps.app.goo.gl/BQWS1XYdyq2ui3oB8"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="inline-flex items-center gap-2 rounded-md bg-accent text-white px-5 py-3 text-base shadow hover:bg-primary transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-cream"
@@ -353,86 +352,128 @@ function App() {
                 <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Final Goodbye</span></div>
               </li>
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">🕊️ </span>Song 131 & Opening Prayer</h3>
-                <p className="text-primary/70">9:40 AM</p>
-                <p className="mt-2 text-sm text-primary/70">Congregational hymn followed by prayer.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">In Prayer 🙏</span></div>
-              </li>
-              <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">📖 </span>Memorial Discourse</h3>
+                <h3 className="font-semibold"><span aria-hidden="true">🎵 </span>Song 147 & Opening Prayer</h3>
                 <p className="text-primary/70">10:00 AM</p>
-                <p className="mt-2 text-sm text-primary/70">A comforting message of hope and remembrance.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-slate-100 to-gray-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Words of Comfort</span></div>
+                <p className="mt-2 text-sm text-primary/70">Opening song and prayer to begin the service.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Service Begins 🙏</span></div>
               </li>
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">🎶 </span>Song 132 & Closing Prayer</h3>
-                <p className="text-primary/70">10:45 AM</p>
-                <p className="mt-2 text-sm text-primary/70">Final hymn and benediction.</p>
+                <h3 className="font-semibold"><span aria-hidden="true">📖 </span>Funeral Discourse</h3>
+                <p className="text-primary/70">10:05 AM</p>
+                <p className="mt-2 text-sm text-primary/70">Biblical talk on the resurrection hope.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-slate-100 to-gray-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Hope & Comfort</span></div>
+              </li>
+              <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
+                <h3 className="font-semibold"><span aria-hidden="true">📢 </span>Announcements</h3>
+                <p className="text-primary/70">10:35 AM</p>
+                <p className="mt-2 text-sm text-primary/70">Important notices and family acknowledgments.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-slate-100 to-gray-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Acknowledgments</span></div>
+              </li>
+              <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
+                <h3 className="font-semibold"><span aria-hidden="true">🎶 </span>Song 151 & Closing Prayer</h3>
+                <p className="text-primary/70">10:40 AM</p>
+                <p className="mt-2 text-sm text-primary/70">Closing song and prayer to conclude the service.</p>
                 <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Farewell 🕊️</span></div>
               </li>
             </ul>
           </div>
         </section>
 
-        
-        {/* Song 131 */}
+
+        {/* Song 147 */}
         <section id="song-131" aria-labelledby="song131-heading" className="max-w-6xl mx-auto px-4 py-14 md:py-20 text-center scroll-mt-24">
-          <h2 id="song131-heading" className="reveal font-display text-3xl md:text-4xl mb-2">Song 131 — “What God Has Yoked Together”</h2>
-          <p className="reveal text-primary/70 mb-6">(Matthew 19:5, 6)</p>
-          <div className="space-y-6 leading-relaxed text-primary/90">
+          <h2 id="song131-heading" className="reveal font-display text-3xl md:text-4xl mb-2">Song 147 — "Life Everlasting Is Promised"</h2>
+          <p className="reveal text-primary/70 mb-6">(Psalm 37:29)</p>
+          <div className="space-y-6 leading-relaxed text-primary/90 dark:text-white/90">
             <div>
               <h3 className="font-semibold mb-2">1. Verse</h3>
-              <p>With dignity and joy,</p>
-              <p>A threefold cord is bound.</p>
-              <p>With God and men to witness,</p>
-              <p>These sacred vows resound.</p>
+              <p>Life everlasting is promised.</p>
+              <p>Our earthly home will endure.</p>
+              <p>'Meek ones will thrive,' said the psalmist.</p>
+              <p>This grand future is sure.</p>
             </div>
             <div>
-              <h3 className="font-semibold mb-2">Chorus 1</h3>
-              <p>He vowed before Jehovah</p>
-              <p>To love her from the heart.</p>
-              <p>“What God has yoked together,</p>
-              <p>Let no man put apart.”</p>
+              <h3 className="font-semibold mb-2">Chorus</h3>
+              <p>We can live forever.</p>
+              <p>It's worth all endeavor.</p>
+              <p>God's promise is faithful.</p>
+              <p>His Word will come true.</p>
             </div>
             <div>
               <h3 className="font-semibold mb-2">2. Verse</h3>
-              <p>They both have searched God’s Word</p>
-              <p>To learn to do his will,</p>
-              <p>And now they seek his blessing,</p>
-              <p>Their promise to fulfill.</p>
+              <p>Paradise brought to perfection;</p>
+              <p>All of God's children set free.</p>
+              <p>Under Jehovah's direction,</p>
+              <p>Peace on earth we will see.</p>
             </div>
             <div>
-              <h3 className="font-semibold mb-2">Chorus 2</h3>
-              <p>She vowed before Jehovah</p>
-              <p>To love him from the heart.</p>
-              <p>“What God has yoked together,</p>
-              <p>Let no man put apart.”</p>
+              <h3 className="font-semibold mb-2">Chorus</h3>
+              <p>We can live forever.</p>
+              <p>It's worth all endeavor.</p>
+              <p>God's promise is faithful.</p>
+              <p>His Word will come true.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">3. Verse</h3>
+              <p>Soon in the grand resurrection,</p>
+              <p>Sorrow will all disappear.</p>
+              <p>Showering tender affection,</p>
+              <p>God will dry ev'ry tear.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Chorus</h3>
+              <p>We can live forever.</p>
+              <p>It's worth all endeavor.</p>
+              <p>God's promise is faithful.</p>
+              <p>His Word will come true.</p>
             </div>
           </div>
         </section>
 
-        {/* Song 132 */}
+        {/* Song 151 */}
         <section id="song-132" aria-labelledby="song132-heading" className="max-w-6xl mx-auto px-4 py-14 md:py-20 text-center scroll-mt-24">
-          <h2 id="song132-heading" className="reveal font-display text-3xl md:text-4xl mb-2">Song 132 — “Now We Are One”</h2>
-          <p className="reveal text-primary/70 mb-6">(Genesis 2:23, 24)</p>
-          <div className="space-y-6 leading-relaxed text-primary/90">
+          <h2 id="song132-heading" className="reveal font-display text-3xl md:text-4xl mb-2">Song 151 — "He Will Call"</h2>
+          <p className="reveal text-primary/70 mb-6">(Job 14:13-15)</p>
+          <div className="space-y-6 leading-relaxed text-primary/90 dark:text-white/90">
             <div>
               <h3 className="font-semibold mb-2">1. Verse</h3>
-              <p>This is at last bone of my bone,</p>
-              <p>Flesh of my flesh; now I’m not alone.</p>
-              <p>God has provided a partner,</p>
-              <p>Someone to call my own.</p>
-              <p>Now we are one; now there can be</p>
-              <p>Blessings to share for you and for me.</p>
-              <p>As man and woman together,</p>
-              <p>We are a family.</p>
-              <p>Ev’ry day we’ll serve our God above.</p>
-              <p>As he shows the way,</p>
-              <p>Unfailing love we’ll display.</p>
-              <p>As we have vowed, so may it be.</p>
-              <p>Seasons of joy, may we come to see.</p>
-              <p>Oh, may we honor Jehovah,</p>
-              <p>And may you always be my love.</p>
+              <p>Life, like a mist, appears for just a day,</p>
+              <p>Then disappears tomorrow.</p>
+              <p>All that we are can quickly fade away,</p>
+              <p>Replaced with tears and sorrow.</p>
+              <p>If a man should die, can he live again?</p>
+              <p>Hear the promise God has made:</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Chorus</h3>
+              <p>He will call; The dead will answer.</p>
+              <p>They will live at his command.</p>
+              <p>For he will have a longing</p>
+              <p>For the work of his own hand.</p>
+              <p>So have faith, and do not wonder,</p>
+              <p>For our God can make us stand.</p>
+              <p>And we will live forever,</p>
+              <p>As the work of his own hand.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">2. Verse</h3>
+              <p>Friends of our God, though they may pass away,</p>
+              <p>Will never be forsaken.</p>
+              <p>All those asleep who in God's mem'ry stay,</p>
+              <p>From death he will awaken.</p>
+              <p>Then we'll come to see all that life can be:</p>
+              <p>Paradise eternally.</p>
+            </div>
+            <div>
+              <h3 className="font-semibold mb-2">Chorus</h3>
+              <p>He will call; The dead will answer.</p>
+              <p>They will live at his command.</p>
+              <p>For he will have a longing</p>
+              <p>For the work of his own hand.</p>
+              <p>So have faith, and do not wonder,</p>
+              <p>For our God can make us stand.</p>
+              <p>And we will live forever,</p>
+              <p>As the work of his own hand.</p>
             </div>
           </div>
         </section>
@@ -446,7 +487,7 @@ function App() {
               <p className="text-primary/60">Cape Coast, Ghana</p>
                 <a
                     className="inline-block mt-4 text-accent underline underline-offset-4 hover:text-primary"
-                    href="https://maps.app.goo.gl/LOCATION_TBD"
+                    href="https://maps.app.goo.gl/BQWS1XYdyq2ui3oB8"
                     target="_blank" rel="noreferrer"
                 >
                     View on Google Maps
@@ -463,49 +504,44 @@ function App() {
             </div>
               <div className="rounded-xl overflow-hidden border border-primary/10 dark:border-white/10">
                   <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.0837429676783!2d-1.2464!3d5.1112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfddfa3e8a7c8e0f%3A0x5c5f7f5f5f5f5f5f!2sCenter%20for%20National%20Culture%2C%20Cape%20Coast!5e0!3m2!1sen!2sgh!4v1234567890!5m2!1sen!2sgh"
-                      loading="lazy"
-                      className="w-full h-96 rounded-lg border-0"
-                      allowFullScreen={true}
-                      referrerPolicy="no-referrer-when-downgrade"
-                      title="Directions to Center For National Culture, Cape Coast"
-                      aria-label="Map showing directions to Center For National Culture, Cape Coast"
-                  ></iframe>
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3973.951640662141!2d-1.2816808!3d5.1114972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfddfec56b217157%3A0x4bffaceef969129a!2sCentre%20for%20National%20Culture!5e0!3m2!1sen!2sgh!4v1766164514592!5m2!1sen!2sgh"
+                      width="600" height="450" loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
           </div>
 
 
         </section>
 
-        {/* Contact */}
-        <section id="rsvp" aria-labelledby="rsvp-heading" className="max-w-6xl mx-auto px-4 py-14 md:py-20 scroll-mt-24">
-          <h2 id="rsvp-heading" className="reveal font-display text-3xl md:text-4xl mb-6">Contact Information</h2>
-          <p className="reveal text-primary/70 mb-8">For inquiries, please reach out to:</p>
-          <div className="reveal grid sm:grid-cols-2 gap-6">
-            <div className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm dark:bg-gray-800 dark:border-white/10">
-              <h3 className="font-semibold flex items-center gap-2"><span aria-hidden="true">👤</span>Timothy</h3>
-              <a
-                href="tel:0556661300"
-                className="mt-2 inline-flex items-center gap-2 text-accent hover:text-primary underline underline-offset-4"
-                aria-label="Call Timothy at 055 666 1300"
-              >
-                <span aria-hidden="true">📞</span>
-                055 666 1300
-              </a>
-            </div>
-            <div className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm dark:bg-gray-800 dark:border-white/10">
-              <h3 className="font-semibold flex items-center gap-2"><span aria-hidden="true">👤</span>Josaphat</h3>
-              <a
-                href="tel:0530672467"
-                className="mt-2 inline-flex items-center gap-2 text-accent hover:text-primary underline underline-offset-4"
-                aria-label="Call Josaphat at 053 067 2467"
-              >
-                <span aria-hidden="true">📞</span>
-                053 067 2467
-              </a>
-            </div>
-          </div>
-        </section>
+          {/* Contact */}
+          {/*<section id="rsvp" aria-labelledby="rsvp-heading" className="max-w-6xl mx-auto px-4 py-14 md:py-20 scroll-mt-24">*/}
+          {/*  <h2 id="rsvp-heading" className="reveal font-display text-3xl md:text-4xl mb-6">Contact Information</h2>*/}
+          {/*  <p className="reveal text-primary/70 mb-8">For inquiries, please reach out to:</p>*/}
+        {/*  <div className="reveal grid sm:grid-cols-2 gap-6">*/}
+        {/*    <div className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm dark:bg-gray-800 dark:border-white/10">*/}
+        {/*      <h3 className="font-semibold flex items-center gap-2"><span aria-hidden="true">👤</span>Timothy</h3>*/}
+        {/*      <a*/}
+        {/*        href="tel:0556661300"*/}
+        {/*        className="mt-2 inline-flex items-center gap-2 text-accent hover:text-primary underline underline-offset-4"*/}
+        {/*        aria-label="Call Timothy at 055 666 1300"*/}
+        {/*      >*/}
+        {/*        <span aria-hidden="true">📞</span>*/}
+        {/*        055 666 1300*/}
+        {/*      </a>*/}
+        {/*    </div>*/}
+        {/*    <div className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm dark:bg-gray-800 dark:border-white/10">*/}
+        {/*      <h3 className="font-semibold flex items-center gap-2"><span aria-hidden="true">👤</span>Josaphat</h3>*/}
+        {/*      <a*/}
+        {/*        href="tel:0530672467"*/}
+        {/*        className="mt-2 inline-flex items-center gap-2 text-accent hover:text-primary underline underline-offset-4"*/}
+        {/*        aria-label="Call Josaphat at 053 067 2467"*/}
+        {/*      >*/}
+        {/*        <span aria-hidden="true">📞</span>*/}
+        {/*        053 067 2467*/}
+        {/*      </a>*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
 
       </main>
 
