@@ -336,45 +336,39 @@ function App() {
             <ul className="reveal grid md:grid-cols-3 gap-6">
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
                 <h3 className="font-semibold"><span aria-hidden="true">🎶 </span>Musical Interlude</h3>
-                <p className="text-primary/70 dark:text-white/70">10:00 AM</p>
-                <p className="mt-2 text-sm text-primary/70 dark:text-white/70">Prelude music to welcome everyone.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-rose-100 to-emerald-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Vibes only ✨</span></div>
+                <p className="text-primary/70 dark:text-white/70">7:40 AM</p>
+                <p className="mt-2 text-sm text-primary/70 dark:text-white/70">Solemn music to prepare hearts.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">In Remembrance 🕯️</span></div>
               </li>
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">🫶 </span>Arrival of Guests</h3>
-                <p className="text-primary/70 dark:text-white/70">11:00 AM</p>
-                <p className="mt-2 text-sm text-primary/70 dark:text-white/70">Guests arrive and take their seats.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-emerald-100 to-rose-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Find your bestie seat 👯‍♀️</span></div>
+                <h3 className="font-semibold"><span aria-hidden="true">🙏 </span>Arrival of Guests</h3>
+                <p className="text-primary/70 dark:text-white/70">7:50 AM</p>
+                <p className="mt-2 text-sm text-primary/70 dark:text-white/70">Guests arrive and are seated respectfully.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-slate-100 to-gray-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Please be seated</span></div>
               </li>
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">💍 </span>Arrival of Groom & Bride</h3>
-                <p className="text-primary/70">11:45 PM</p>
-                <p className="mt-2 text-sm text-primary/70">Processional and grand entrance.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-rose-100 to-emerald-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Cue the confetti 🎉</span></div>
-              </li>
-              <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">🎤 </span>Chairman's Opening Remarks</h3>
-                <p className="text-primary/70">11:50 PM</p>
-                <p className="mt-2 text-sm text-primary/70">Welcome and opening address by the chairman.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-emerald-100 to-rose-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">It’s showtime! 🎬</span></div>
+                <h3 className="font-semibold"><span aria-hidden="true">⚰️ </span>Viewing of Body</h3>
+                <p className="text-primary/70">8:00 AM</p>
+                <p className="mt-2 text-sm text-primary/70">Family and friends pay final respects.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Final Goodbye</span></div>
               </li>
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
                 <h3 className="font-semibold"><span aria-hidden="true">🕊️ </span>Song 131 & Opening Prayer</h3>
-                <p className="text-primary/70">11:55 PM</p>
-                <p className="mt-2 text-sm text-primary/70">Congregational song followed by prayer.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-rose-100 to-emerald-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Sing it out! 🎵</span></div>
+                <p className="text-primary/70">9:40 AM</p>
+                <p className="mt-2 text-sm text-primary/70">Congregational hymn followed by prayer.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">In Prayer 🙏</span></div>
               </li>
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">📖 </span>Marriage Discourse "Honorable Marriage in God's Sight"</h3>
-                <p className="text-primary/70">12:00 PM</p>
-                <p className="mt-2 text-sm text-primary/70">A discourse on the sanctity and honor of marriage.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-emerald-100 to-rose-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Words to cherish 💗</span></div>
+                <h3 className="font-semibold"><span aria-hidden="true">📖 </span>Memorial Discourse</h3>
+                <p className="text-primary/70">10:00 AM</p>
+                <p className="mt-2 text-sm text-primary/70">A comforting message of hope and remembrance.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-slate-100 to-gray-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Words of Comfort</span></div>
               </li>
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
                 <h3 className="font-semibold"><span aria-hidden="true">🎶 </span>Song 132 & Closing Prayer</h3>
-                <p className="text-primary/70">12:30 PM</p>
-                <p className="mt-2 text-sm text-primary/70">Final song and closing prayer.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-rose-100 to-emerald-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">One last chorus! ✨</span></div>
+                <p className="text-primary/70">10:45 AM</p>
+                <p className="mt-2 text-sm text-primary/70">Final hymn and benediction.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Farewell 🕊️</span></div>
               </li>
             </ul>
           </div>
