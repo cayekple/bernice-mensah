@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bernice-mensah/static/css/main.dc67086a.css",
+    "main.js": "/bernice-mensah/static/js/main.739598f0.js",
+    "static/js/453.ebdc5dc1.chunk.js": "/bernice-mensah/static/js/453.ebdc5dc1.chunk.js",
+    "static/media/3.JPG": "/bernice-mensah/static/media/3.d5428748d210419631c1.JPG",
+    "static/media/6.JPG": "/bernice-mensah/static/media/6.59d388d01ddc9035411e.JPG",
+    "static/media/4.JPG": "/bernice-mensah/static/media/4.160ea15d6c02f072b7ab.JPG",
+    "static/media/7.JPG": "/bernice-mensah/static/media/7.5788ef18f00cb5df328e.JPG",
+    "static/media/5.JPG": "/bernice-mensah/static/media/5.bf324f80ae8b56fd8297.JPG",
+    "static/media/1.JPG": "/bernice-mensah/static/media/1.203a3daa01de494bb258.JPG",
+    "static/media/2.JPG": "/bernice-mensah/static/media/2.3df59081be59827ddd27.JPG",
+    "index.html": "/bernice-mensah/index.html",
+    "static/media/logo.svg": "/bernice-mensah/static/media/logo.fc97222a156ceb9711f703108686d6c0.svg",
+    "main.dc67086a.css.map": "/bernice-mensah/static/css/main.dc67086a.css.map",
+    "main.739598f0.js.map": "/bernice-mensah/static/js/main.739598f0.js.map",
+    "453.ebdc5dc1.chunk.js.map": "/bernice-mensah/static/js/453.ebdc5dc1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc67086a.css",
+    "static/js/main.739598f0.js"
+  ]
+}

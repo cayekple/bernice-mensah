@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Clemence &amp; Antoinette Monogram</title>
+  <desc id="desc">A simple monogram logo featuring a C and an A in wedding colors with a small heart accent.</desc>
+  <!-- Background guide (not visible) -->
+  <rect width="200" height="60" fill="none"/>
+
+  <!-- Letter C (primary) -->
+  <path d="M110 12 A28 28 0 1 0 110 48" stroke="#014331" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Letter A (accent) -->
+  <path d="M130 48 L150 12 L170 48" stroke="#b47868" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M139 34 H161" stroke="#b47868" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- Small heart accent between C & A -->
+  <path d="M123 18c0-3.5 2.7-6.3 6-6.3 2.1 0 3.9 1.1 4.9 2.8 1-1.7 2.8-2.8 4.9-2.8 3.3 0 6 2.8 6 6.3 0 6.5-10.9 11.3-10.9 11.3S123 24.6 123 18z" fill="#b47868"/>
+
+  <!-- Optional divider line on left for balance -->
+  <path d="M36 12 C24 18, 24 42, 36 48" stroke="#014331" stroke-width="6" stroke-linecap="round" opacity="0.2"/>
+  
+  <!-- Wordmark (hidden for compactness, accessible via title) -->
+</svg>
