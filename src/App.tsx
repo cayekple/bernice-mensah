@@ -200,7 +200,6 @@ function App() {
               <a href="#program" className={linkClass('program')} aria-current={ariaCurrent('program')}>Program</a>
               <a href="#song-131" className={linkClass('songs')} aria-current={ariaCurrent('songs')}>Songs</a>
               <a href="#reception" className={linkClass('reception')} aria-current={ariaCurrent('reception')}>Details</a>
-              <a href="#rsvp" className={linkClass('rsvp')} aria-current={ariaCurrent('rsvp')}>Contact</a>
               <a href="https://maps.app.goo.gl/BQWS1XYdyq2ui3oB8" target="_blank" rel="noreferrer noopener" className="inline-flex items-center gap-2 rounded-md bg-accent text-white px-3 py-1.5 shadow hover:bg-primary transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-cream" aria-label="Open directions in Google Maps (opens in new tab)">
                 <span aria-hidden="true">📍</span>
                 <span>Directions</span>
@@ -237,7 +236,6 @@ function App() {
               <a href="#program" onClick={() => setMenuOpen(false)} className={linkClass('program')} aria-current={ariaCurrent('program')}>Program</a>
               <a href="#song-131" onClick={() => setMenuOpen(false)} className={linkClass('songs')} aria-current={ariaCurrent('songs')}>Songs</a>
               <a href="#reception" onClick={() => setMenuOpen(false)} className={linkClass('reception')} aria-current={ariaCurrent('reception')}>Details</a>
-              <a href="#rsvp" onClick={() => setMenuOpen(false)} className={linkClass('rsvp')} aria-current={ariaCurrent('rsvp')}>Contact</a>
               <a href="https://maps.app.goo.gl/BQWS1XYdyq2ui3oB8" target="_blank" rel="noreferrer noopener" onClick={() => setMenuOpen(false)} className="inline-flex items-center gap-2 rounded-md bg-accent text-white px-3 py-1.5 shadow hover:bg-primary transition">
                 <span aria-hidden="true">📍</span>
                 <span>Directions</span>
@@ -268,8 +266,6 @@ function App() {
               <p className="text-accent uppercase tracking-widest text-sm mb-3">In Loving Memory</p>
               <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-tight mb-4">Mrs Bernice Mensah</h1>
               <p className="text-lg md:text-xl text-primary/80 dark:text-white/90">Age: 54 years</p>
-              <p className="text-base md:text-lg text-primary/70 dark:text-white/80 mb-2">Funeral Service</p>
-              <p className="text-base md:text-lg text-primary/70 dark:text-white/80 mb-1">10th January 2026</p>
               <p className="text-base md:text-lg text-primary/70 dark:text-white/80">Center For National Culture, Cape Coast</p>
               <div className="mt-4">
                 <a
@@ -307,6 +303,7 @@ function App() {
           <div className="max-w-6xl mx-auto px-4 text-center">
             <p className="text-white/90 uppercase tracking-widest text-sm md:text-base mb-2">Funeral Service</p>
             <h2 className="font-display text-3xl md:text-5xl text-white font-semibold mb-3">Friday, 10th January 2026</h2>
+            <p className="text-white text-xl md:text-2xl font-bold mb-2">Age: 54 years</p>
             <p className="text-white/90 text-lg md:text-xl">Center For National Culture, Cape Coast</p>
           </div>
         </section>
