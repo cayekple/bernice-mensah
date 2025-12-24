@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import coupleImg from './assets/img/1.JPG';
+import coupleImg from './assets/img/1.jpg';
 import { getGalleryImages, getGalleryVideos } from './gallery';
 
 function App() {
@@ -46,7 +46,7 @@ function App() {
   }, [lightbox.open]);
 
   // Countdown state - disabled for funeral
-  const funeralDate = useMemo(() => new Date('2025-12-28T00:00:00'), []);
+  const funeralDate = useMemo(() => new Date('2026-01-10T00:00:00'), []);
   type Countdown = { d: number; h: number; m: number; s: number; done: boolean };
   const [countdown, setCountdown] = useState<Countdown | null>(null);
   const intervalRef = useRef<number | null>(null);
@@ -269,6 +269,7 @@ function App() {
               <h1 className="font-display text-4xl md:text-6xl tracking-tight leading-tight mb-4">Mrs Bernice Mensah</h1>
               <p className="text-lg md:text-xl text-primary/80 dark:text-white/90">Age: 54 years</p>
               <p className="text-base md:text-lg text-primary/70 dark:text-white/80 mb-2">Funeral Service</p>
+              <p className="text-base md:text-lg text-primary/70 dark:text-white/80 mb-1">10th January 2026</p>
               <p className="text-base md:text-lg text-primary/70 dark:text-white/80">Center For National Culture, Cape Coast</p>
               <div className="mt-4">
                 <a
@@ -301,6 +302,15 @@ function App() {
 
 
       <main id="mainContent" aria-hidden={lightbox.open} tabIndex={-1}>
+        {/* Funeral Date Banner */}
+        <section className="bg-accent py-8 md:py-12">
+          <div className="max-w-6xl mx-auto px-4 text-center">
+            <p className="text-white/90 uppercase tracking-widest text-sm md:text-base mb-2">Funeral Service</p>
+            <h2 className="font-display text-3xl md:text-5xl text-white font-semibold mb-3">Friday, 10th January 2026</h2>
+            <p className="text-white/90 text-lg md:text-xl">Center For National Culture, Cape Coast</p>
+          </div>
+        </section>
+
         {/* Gallery */}
         <section id="gallery" aria-labelledby="gallery-heading" className="max-w-6xl mx-auto px-4 py-14 md:py-20 scroll-mt-24">
           <h2 id="gallery-heading" className="reveal font-display text-3xl md:text-4xl mb-6">Photo Gallery</h2>
@@ -334,18 +344,6 @@ function App() {
             <h2 id="program-heading" className="reveal font-display text-3xl md:text-4xl mb-6">Funeral Service Program</h2>
             <ul className="reveal grid md:grid-cols-3 gap-6">
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">🎶 </span>Musical Interlude</h3>
-                <p className="text-primary/70 dark:text-white/70">7:40 AM</p>
-                <p className="mt-2 text-sm text-primary/70 dark:text-white/70">Solemn music to prepare hearts.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">In Remembrance 🕯️</span></div>
-              </li>
-              <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">🙏 </span>Arrival of Guests</h3>
-                <p className="text-primary/70 dark:text-white/70">7:50 AM</p>
-                <p className="mt-2 text-sm text-primary/70 dark:text-white/70">Guests arrive and are seated respectfully.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-slate-100 to-gray-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Please be seated</span></div>
-              </li>
-              <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
                 <h3 className="font-semibold"><span aria-hidden="true">⚰️ </span>Viewing of Body</h3>
                 <p className="text-primary/70">8:00 AM</p>
                 <p className="mt-2 text-sm text-primary/70">Family and friends pay final respects.</p>
@@ -364,16 +362,16 @@ function App() {
                 <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-slate-100 to-gray-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Hope & Comfort</span></div>
               </li>
               <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
-                <h3 className="font-semibold"><span aria-hidden="true">📢 </span>Announcements</h3>
-                <p className="text-primary/70">10:35 AM</p>
-                <p className="mt-2 text-sm text-primary/70">Important notices and family acknowledgments.</p>
-                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-slate-100 to-gray-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Acknowledgments</span></div>
-              </li>
-              <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
                 <h3 className="font-semibold"><span aria-hidden="true">🎶 </span>Song 151 & Closing Prayer</h3>
-                <p className="text-primary/70">10:40 AM</p>
+                <p className="text-primary/70">10:35 AM</p>
                 <p className="mt-2 text-sm text-primary/70">Closing song and prayer to conclude the service.</p>
                 <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-gray-100 to-slate-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Farewell 🕊️</span></div>
+              </li>
+              <li className="rounded-xl border border-primary/10 bg-white p-6 shadow-sm transition hover:shadow-md hover:border-primary/20 transform hover:-translate-y-0.5 dark:bg-gray-800 dark:border-white/10">
+                <h3 className="font-semibold"><span aria-hidden="true">📢 </span>Announcements</h3>
+                <p className="text-primary/70">10:40 AM</p>
+                <p className="mt-2 text-sm text-primary/70">Important notices and family acknowledgments.</p>
+                <div className="mt-3"><span className="inline-block text-xs font-medium px-2.5 py-1 rounded-full bg-gradient-to-r from-slate-100 to-gray-100 text-primary/80 border border-primary/10 dark:from-gray-700 dark:to-gray-600 dark:text-white/90">Acknowledgments</span></div>
               </li>
             </ul>
           </div>

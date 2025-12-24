@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Core funeral/memorial palette
+        // Core funeral palette
         primary: '#1a1a2e', // deep navy/charcoal
-        accent: '#6b5b95', // muted purple (mourning color)
+        accent: '#C88F4B', // warm bronze/gold
         cream: '#f5f5f0', // soft off-white
 
-        // Expanded semantic palette for memorial
+        // Expanded semantic palette for funeral
         secondary: '#4a4a5e', // slate gray
         blush: '#d4c5d8', // soft lavender
         peach: '#c9b8a8', // muted beige
