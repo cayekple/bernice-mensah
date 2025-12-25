@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bernice-mensah/static/css/main.bccf44e9.css",
-    "main.js": "/bernice-mensah/static/js/main.b81f02b4.js",
+    "main.css": "/bernice-mensah/static/css/main.5e730045.css",
+    "main.js": "/bernice-mensah/static/js/main.80a27577.js",
     "static/js/453.ebdc5dc1.chunk.js": "/bernice-mensah/static/js/453.ebdc5dc1.chunk.js",
     "static/media/3.jpg": "/bernice-mensah/static/media/3.7b846ac68fbd3d028b8b.jpg",
     "static/media/5.jpg": "/bernice-mensah/static/media/5.848893c020949062b92b.jpg",
@@ -11,12 +11,12 @@
     "static/media/2.jpg": "/bernice-mensah/static/media/2.47e313719f3eeaee47af.jpg",
     "static/media/1.jpg": "/bernice-mensah/static/media/1.a9540ecb30bbae44c1d2.jpg",
     "index.html": "/bernice-mensah/index.html",
-    "main.bccf44e9.css.map": "/bernice-mensah/static/css/main.bccf44e9.css.map",
-    "main.b81f02b4.js.map": "/bernice-mensah/static/js/main.b81f02b4.js.map",
+    "main.5e730045.css.map": "/bernice-mensah/static/css/main.5e730045.css.map",
+    "main.80a27577.js.map": "/bernice-mensah/static/js/main.80a27577.js.map",
     "453.ebdc5dc1.chunk.js.map": "/bernice-mensah/static/js/453.ebdc5dc1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bccf44e9.css",
-    "static/js/main.b81f02b4.js"
+    "static/css/main.5e730045.css",
+    "static/js/main.80a27577.js"
   ]
 }
