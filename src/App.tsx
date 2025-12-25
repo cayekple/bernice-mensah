@@ -259,7 +259,7 @@ function App() {
                 loading="eager"
                 decoding="async"
                 fetchPriority="high"
-                className="reveal w-full h-96 md:h-[32rem] object-cover object-top rounded-md border border-primary/10 ring-4 ring-accent/60 ring-offset-2 ring-offset-cream dark:ring-offset-gray-900 drop-shadow-[0_0_28px_rgba(180,120,104,0.55)]"
+                className="reveal w-full h-96 md:h-[32rem] object-contain rounded-md drop-shadow-[0_0_28px_rgba(180,120,104,0.55)]"
               />
             </div>
             <div className="reveal text-center md:text-left">
