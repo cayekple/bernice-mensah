@@ -303,7 +303,7 @@ function App() {
         <section className="bg-accent py-8 md:py-12">
           <div className="max-w-6xl mx-auto px-4 text-center">
             <p className="text-white/90 uppercase tracking-widest text-sm md:text-base mb-2">Funeral Service</p>
-            <h2 className="font-display text-3xl md:text-5xl text-white font-semibold mb-3">Friday, 10th January 2026</h2>
+            <h2 className="font-display text-3xl md:text-5xl text-white font-semibold mb-3">Saturday, 10th January 2026</h2>
             <p className="text-white text-xl md:text-2xl font-bold mb-2">Age: 54 years</p>
             <p className="text-white/90 text-lg md:text-xl">Center For National Culture, Cape Coast</p>
           </div>
