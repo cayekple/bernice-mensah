@@ -279,18 +279,18 @@ function App() {
                   <span aria-hidden="true">📍</span>
                   <span>Get Directions</span>
                 </a>
-                {/*<a*/}
-                {/*  href="https://zoom.us/j/MEETING_ID"*/}
-                {/*  target="_blank"*/}
-                {/*  rel="noreferrer noopener"*/}
-                {/*  className="ml-3 inline-flex items-center gap-2 rounded-md bg-[#2D8CFF] text-white px-5 py-3 text-base shadow hover:bg-[#1E6FE3] transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2D8CFF] focus-visible:ring-offset-2 focus-visible:ring-offset-cream"*/}
-                {/*  aria-label="Join the Zoom meeting (opens in new tab)"*/}
-                {/*>*/}
-                {/*  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">*/}
-                {/*    <path d="M3 8a3 3 0 0 1 3-3h7a3 3 0 0 1 3 3v.764l2.553-1.916A1 1 0 0 1 21 7.686v8.628a1 1 0 0 1-1.447.838L16 15.236V16a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V8Z" fill="currentColor"/>*/}
-                {/*  </svg>*/}
-                {/*  <span>Join on Zoom</span>*/}
-                {/*</a>*/}
+                <a
+                  href="https://wacren.zoom.us/j/61677288514?pwd=sUlvO5d7Q3iutegAYybflSaRYPWas2.1"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="ml-3 inline-flex items-center gap-2 rounded-md bg-[#2D8CFF] text-white px-5 py-3 text-base shadow hover:bg-[#1E6FE3] transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2D8CFF] focus-visible:ring-offset-2 focus-visible:ring-offset-cream"
+                  aria-label="Join the Zoom meeting (opens in new tab)"
+                >
+                  <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 8a3 3 0 0 1 3-3h7a3 3 0 0 1 3 3v.764l2.553-1.916A1 1 0 0 1 21 7.686v8.628a1 1 0 0 1-1.447.838L16 15.236V16a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V8Z" fill="currentColor"/>
+                  </svg>
+                  <span>Join on Zoom</span>
+                </a>
               </div>
             </div>
           </div>
